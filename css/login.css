@@ -14,20 +14,84 @@
 
 .login__column{
   width: 47%;
+  font-size: 14px;
 }
 
 .login__column .login__box{
-  padding: 25px 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  width: 100%;
+  background-color: white;
+  border: 1px solid #efefef;
+  margin-bottom: 13px;
 }
 
-.login_secondimg{
+.login__box .login_secondimg{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 7px;
+  margin-top: 33px;
+}
+
+.login__box .login__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.login__form input{
+  width: 100%;
+  padding: 10px 7px 7px 7px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #efefef;
+  font-size: 14px;
+}
+
+.login__form input:first-child{
+  margin-bottom: 8px;
+}
+.login__form input:nth-child(2){
+  margin-bottom: 12px;
+}
+
+.login__form input[type="submit"]{
+  border: none;
+  color: white;
+  background-color: #3897f0;
+  margin-bottom: 16px;
+  cursor: pointer;
+  padding: 7px;
+  font-weight: 500;
+}
+
+.login__box a{
+  margin-bottom: 20px;
+}
+
+.login__column a{
+  text-decoration: none;
+  color: #003569
+}
+
+.login__column .login__t-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__appStore{
+ display: flex;
+ flex-direction: row;
+ margin-top: 10px;
+ height: 10px;
+}
+.appStore{
+  height: 38px;
 }
