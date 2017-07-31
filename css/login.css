@@ -26,6 +26,7 @@
   background-color: white;
   border: 1px solid #efefef;
   margin-bottom: 13px;
+  box-sizing: border-box;
 }
 
 .login__box .login_secondimg{
@@ -78,7 +79,17 @@
   text-decoration: none;
   color: #003569
 }
+.login__column .login__box:nth-child(2){
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 26px;
+  box-sizing: border-box;
+}
 
+.login__box .login__noAccount{
+  margin-right: 3px;
+}
 .login__column .login__t-box{
   display: flex;
   flex-direction: column;
@@ -94,4 +105,10 @@
 }
 .appStore{
   height: 38px;
+}
+.login__t-box span{
+  margin-top: 20px;
+}
+.login__appStore a{
+  margin: 15px 5px;
 }

@@ -1,6 +1,8 @@
 body {
   background: #fafafa;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
